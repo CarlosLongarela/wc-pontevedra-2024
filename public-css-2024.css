@@ -17,15 +17,14 @@
 	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-3);
 }
 
-.sombra-blanca {
+.sombra-blanca,
+.suscripciones .wp-block-button__link {
 	box-shadow: 4px 4px 0 0 var(--wp--preset--color--base-2);
 }
 
+/*
 .ondas-pie,
 .ondas-cabecera {
 	margin-bottom: -5px !important;
 }
-
-.suscripciones .wp-block-button__link {
-	box-shadow: 4px 4px 0 0 var(--wp--preset--color--base-2);
-}
+*/
