@@ -21,6 +21,7 @@
 	box-shadow: 4px 4px 0 0 var(--wp--preset--color--base-2);
 }
 
-.ondas-pie {
+.ondas-pie,
+.ondas-cabecera {
 	margin-bottom: -5px !important;
 }
