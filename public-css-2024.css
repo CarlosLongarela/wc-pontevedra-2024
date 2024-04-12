@@ -1,5 +1,22 @@
 /** Public WordCamp Pontevedra 2024 CSS */
 
+/*
+--wp--preset--color--base: #f9f9f9;
+--wp--preset--color--base-2: #ffffff;
+--wp--preset--color--contrast: #333333;
+--wp--preset--color--contrast-2: #333333;
+--wp--preset--color--contrast-3: #A4A4A4;
+--wp--preset--color--accent: #cfcabe;
+--wp--preset--color--accent-2: #d4cdf4;
+--wp--preset--color--accent-3: #35ff69;
+--wp--preset--color--accent-4: #6a478d;
+--wp--preset--color--accent-5: #b5bdbc;
+*/
+
 .sombra-1 {
-	box-shadow: var(--wp--preset--color--accent-3);
+	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-3);
+}
+
+.sombra-2 {
+	box-shadow: 4px 4px 0 0 var(--wp--preset--color--base-2);
 }
