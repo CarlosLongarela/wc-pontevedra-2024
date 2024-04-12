@@ -1,1 +1,5 @@
 /** Public WordCamp Pontevedra 2024 CSS */
+
+.sombra-1 {
+	box-shadow: var(--wp--preset--color--accent-3);
+}
