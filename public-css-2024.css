@@ -17,7 +17,7 @@
 	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-3);
 }
 
-.wp-block-button.sombra-violeta a
+.wp-block-button.sombra-violeta a,
 .sombra-violeta:not(.wp-block-button){
 	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-4);
 }
