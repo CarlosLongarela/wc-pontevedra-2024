@@ -27,3 +27,28 @@
 .suscripciones .wp-block-button__link {
 	box-shadow: 4px 4px 0 0 var(--wp--preset--color--base-2);
 }
+
+
+
+
+/* 
+	Jetpack subscribe form
+	Using !importants because their selectors are a mess (sorry!)
+*/
+
+@media screen and (max-width: 560px){
+
+	.wp-block-jetpack-subscriptions__form-elements{
+		align-items: center !important;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	#subscribe-email {
+		width: 90% !important;
+		margin: auto !important;
+	}
+
+}
+
+
