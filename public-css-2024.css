@@ -47,6 +47,6 @@
 	}
 }
 
-li + li {
+.entry-content li + li {
 	margin-top: 1em;
 }
