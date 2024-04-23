@@ -28,12 +28,14 @@
 	box-shadow: 4px 4px 0 0 var(--wp--preset--color--base-2);
 }
 
+.entry-content li + li {
+	margin-top: 1em;
+}
 
 /*
 	Jetpack subscribe form
 	Using !importants because their selectors are a mess (sorry!)
 */
-
 @media screen and (max-width: 560px) {
 	.wp-block-jetpack-subscriptions__form-elements {
 		align-items: center !important;
@@ -45,8 +47,4 @@
 		width: 90% !important;
 		margin: auto !important;
 	}
-}
-
-.entry-content li + li {
-	margin-top: 1em;
 }
