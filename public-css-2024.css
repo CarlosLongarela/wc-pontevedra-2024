@@ -29,16 +29,13 @@
 }
 
 
-
-
-/* 
+/*
 	Jetpack subscribe form
 	Using !importants because their selectors are a mess (sorry!)
 */
 
-@media screen and (max-width: 560px){
-
-	.wp-block-jetpack-subscriptions__form-elements{
+@media screen and (max-width: 560px) {
+	.wp-block-jetpack-subscriptions__form-elements {
 		align-items: center !important;
 		flex-direction: column;
 		gap: 15px;
@@ -48,7 +45,8 @@
 		width: 90% !important;
 		margin: auto !important;
 	}
-
 }
 
-
+li + li {
+	margin-top: 1em;
+}
