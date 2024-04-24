@@ -32,7 +32,7 @@
 	margin-top: 1em;
 }
 
-/* El menu cambia a mobile en 599px, en 600px aún es dektop */
+/* El menu cambia a mobile en 599px, en 600px aún es desktop */
 @media screen and (max-width: 599px) {
 	/*
 		Jetpack subscribe form
