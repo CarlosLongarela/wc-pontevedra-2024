@@ -51,7 +51,7 @@
 }
 
 /* En 780 hay otro punto de ruptura */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 781px) {
 	/* Pie de página centrado */
 	.contenido-pie {
 		flex-direction: column-reverse;
