@@ -36,7 +36,8 @@
 	max-width: 100%;
 }
 
-@media screen and (max-width: 560px) {
+/* El menu cambia a mobile en 599px, en 600px aún es dektop */
+@media screen and (max-width: 599px) {
 	/*
 		Jetpack subscribe form
 		Using !importants because their selectors are a mess (sorry!)
