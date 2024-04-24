@@ -32,6 +32,9 @@
 	margin-top: 1em;
 }
 
+.ondas-pe {
+	max-width: 100%;
+}
 
 @media screen and (max-width: 560px) {
 	/*
