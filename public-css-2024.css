@@ -50,6 +50,10 @@
 	}
 
 	/* Pie de página centrado */
+	.contenido-pie {
+		flex-direction: row-reverse;
+	}
+
 	.contenido-pie .wp-block-column,
 	.contenido-pie .wp-block-column p {
 		text-align: center !important;
