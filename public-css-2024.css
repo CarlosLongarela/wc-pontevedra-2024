@@ -51,7 +51,7 @@
 
 	/* Pie de página centrado */
 	.contenido-pie {
-		flex-direction: row-reverse;
+		flex-direction: column-reverse;
 	}
 
 	.contenido-pie .wp-block-column,
