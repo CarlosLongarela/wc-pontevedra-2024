@@ -60,5 +60,7 @@
 	.contenido-pie .wp-block-column ul {
 		align-content: center;
 		align-items: center;
+		margin-inline: auto;
+		justify-content: center;
 	}
 }
