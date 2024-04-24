@@ -32,10 +32,6 @@
 	margin-top: 1em;
 }
 
-.ondas-pe {
-	max-width: 100%;
-}
-
 /* El menu cambia a mobile en 599px, en 600px aún es dektop */
 @media screen and (max-width: 599px) {
 	/*
@@ -53,7 +49,8 @@
 		margin: auto !important;
 	}
 
-	.column-reverse div {
-		order: -1;
+	.contenido-pie .wp-block-column {
+		text-align: center !important;
+		margin-inline: auto !important;
 	}
 }
