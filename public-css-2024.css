@@ -49,8 +49,16 @@
 		margin: auto !important;
 	}
 
-	.contenido-pie .wp-block-column {
+	/* Pie de página centrado */
+	.contenido-pie .wp-block-column,
+	.contenido-pie .wp-block-column p {
 		text-align: center !important;
 		margin-inline: auto !important;
+	}
+
+	.contenido-pie .wp-block-column nav,
+	.contenido-pie .wp-block-column ul {
+		align-content: center;
+		align-items: center;
 	}
 }
