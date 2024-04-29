@@ -71,3 +71,14 @@
 		justify-content: center;
 	}
 }
+
+.mask-organizer {
+	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
+	mask-size: auto;
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
+
+.mask-organizer:nth-child(even) {
+	transform: rotate(180deg);
+}
