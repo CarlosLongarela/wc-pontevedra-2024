@@ -80,5 +80,5 @@
 }
 
 li.wcb_organizer:nth-of-type(even) .mask-organizer img {
-	transform: rotate(180deg);
+	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado-2.png);
 }
