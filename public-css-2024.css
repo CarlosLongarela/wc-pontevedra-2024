@@ -82,3 +82,11 @@
 li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado-2.png);
 }
+
+.wcb_organizer .entry-content {
+	text-align: center;
+}
+
+.wcb_organizer .entry-content .wp-block-social-links {
+	justify-content: center;
+}
