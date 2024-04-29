@@ -96,5 +96,6 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 }
 
 li.wp-social-link.wp-block-social-link {
-	background-color: var(--wp--preset--color--accent-2);
+	background-color: var(--wp--preset--color--accent-2) !important;
+	color: var(--wp--preset--color--base) !important;
 }
