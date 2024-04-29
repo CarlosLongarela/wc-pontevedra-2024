@@ -74,11 +74,11 @@
 
 .mask-organizer img {
 	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
-	mask-size: auto;
+	mask-size: 256px;
 	mask-repeat: no-repeat;
 	mask-position: center;
 }
 
-.mask-organizer img:nth-child(even) {
+.mask-organizer:nth-child(even) img {
 	transform: rotate(180deg);
 }
