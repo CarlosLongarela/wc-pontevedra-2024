@@ -90,3 +90,7 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 .wcb_organizer .entry-content .wp-block-social-links {
 	justify-content: center;
 }
+
+.wp-block-social-link-label {
+	display: none;
+}
