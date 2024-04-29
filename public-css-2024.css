@@ -80,5 +80,5 @@
 }
 
 li.wcb_organizer:nth-of-type(even) .mask-organizer img {
-	border: 1px solid red;
+	transform: rotate(180deg);
 }
