@@ -80,5 +80,18 @@
 }
 
 .mask-organizer:nth-child(even) img {
-	transform: rotate(180deg);
+	border: 1px solid red;
 }
+
+.mask-organizer figure:nth-of-type(even):last-child img {
+	border: 1px solid green;
+  }
+
+
+  .mask-organizer figure img:nth-of-type(even) {
+	border: 1px solid blue;
+  }
+
+  .mask-organizer figure:nth-child(even) img {
+	border: 1px solid pink;
+  }
