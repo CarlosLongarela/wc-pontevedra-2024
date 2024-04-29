@@ -95,3 +95,7 @@
   .mask-organizer figure:nth-child(even) img {
 	border: 1px solid pink;
   }
+
+li.wcb_organizer:nth-of-type(even) {
+	border: 1px solid red;
+}
