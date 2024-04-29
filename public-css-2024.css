@@ -91,11 +91,11 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	justify-content: center;
 }
 
-.wp-block-social-link-label {
+.wcb_organizer .wp-block-social-link-label {
 	display: none;
 }
 
-li.wp-social-link.wp-block-social-link {
+.wcb_organizer li.wp-social-link.wp-block-social-link {
 	background-color: var(--wp--preset--color--accent-5) !important;
 	color: var(--wp--preset--color--contrast) !important;
 }
