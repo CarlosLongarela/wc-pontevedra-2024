@@ -96,8 +96,33 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 }
 
 .wcb_organizer li.wp-social-link.wp-block-social-link {
-	background-color: var(--wp--preset--color--accent-5) !important;
+	background-color: #e6e6e6 !important;
 	color: var(--wp--preset--color--contrast) !important;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link svg {
+	display: none;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link a::before {
+	background-size: contain;
+	content: "";
+	display: inline-block;
+	height: 24px;
+	visibility: visible;
+	width: 24px;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-chain a::before {
+	background: url(https://pontevedra.wordcamp.org/2024/files/2024/04/www-icon.png) no-repeat center center;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-twitter a::before {
+	background: url(https://pontevedra.wordcamp.org/2024/files/2024/04/x-icon.png) no-repeat center center;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-wordpress a::before {
+	background: url(https://pontevedra.wordcamp.org/2024/files/2024/04/wp-icon.png) no-repeat center center;
 }
 
 .fondo-div-galicia {
