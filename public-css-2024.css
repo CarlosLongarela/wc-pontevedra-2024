@@ -105,7 +105,7 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 }
 
 .wcb_organizer li.wp-social-link.wp-block-social-link a::before {
-	background-size: contain;
+	background-size: contain !important;
 	content: "";
 	display: inline-block;
 	height: 24px;
