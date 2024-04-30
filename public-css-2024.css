@@ -108,9 +108,9 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	background-size: contain !important;
 	content: "";
 	display: inline-block;
-	height: 24px;
 	visibility: visible;
-	width: 24px;
+	height: 30px;
+	width: 30px;
 }
 
 .wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-chain a::before {
