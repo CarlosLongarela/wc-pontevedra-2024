@@ -132,3 +132,17 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 .fondo-div-galicia .wp-block-cover__image-background {
 	object-fit: contain;
 }
+
+/* Botón Contacto */
+.wp-block-jetpack-contact-form .wp-block-button__link {
+	border-color: var(--wp--preset--color--accent-3);
+	border-radius: 0;
+	padding-top: 4px;
+	padding-right: 24px;
+	padding-bottom: 4px;
+	padding-left: 24px;
+	border-width: initial;
+	background-color: var(--wp--preset--color--accent-4) !important;
+	color: var(--wp--preset--color--base-2) !important;
+}
+
