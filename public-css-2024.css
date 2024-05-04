@@ -24,7 +24,7 @@
 }
 
 .sombra-patros img {
-	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-4);
+	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-4) !important;
 }
 
 
