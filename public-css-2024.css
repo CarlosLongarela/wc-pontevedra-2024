@@ -148,8 +148,9 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	box-shadow: rgb(53, 255, 105) 4px 4px 0px 0px;
 }
 
-/* Invertir interrogante para apertura, Santi Rodríguez */
-.inv-question-mark {
+/* Invertir interrogante para apertura */
+.con-interrogante strong {
+	font-weight: normal;
 	display: inline-block;
 	transform: scale(-1,1);
 }
