@@ -23,6 +23,10 @@
 	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-4);
 }
 
+.sombra-patros img {
+	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-4);
+}
+
 
 .sombra-blanca,
 .suscripciones .wp-block-button__link {
@@ -153,4 +157,5 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	font-weight: normal;
 	display: inline-block;
 	transform: scale(-1,1);
+	margin-right: 5px;
 }
