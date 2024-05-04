@@ -133,7 +133,7 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	object-fit: contain;
 }
 
-/* Botón Contacto */
+/* Botón Contacto, botón lila con sombra verde */
 .wp-block-jetpack-contact-form .wp-block-button__link {
 	border: 2px solid var(--wp--preset--color--accent-3) !important;
 	border-radius: 0;
