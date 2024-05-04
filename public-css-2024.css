@@ -13,8 +13,10 @@
 --wp--preset--color--accent-5: #b5bdbc;
 */
 
-.sombra-verde {
-	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-3);
+.sombra-verde,
+.sombra-verde a,
+.sombra-verde img {
+	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-3) !important;
 }
 
 .wp-block-button.sombra-violeta a,
