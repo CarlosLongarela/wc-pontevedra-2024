@@ -174,3 +174,7 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	height: 6px;
 	background-color: #bcaedf;
 }
+
+.single-post .entry-content {
+	padding-inline: 1em;
+}
