@@ -178,3 +178,10 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 .single-post .entry-content {
 	padding-inline: 1em;
 }
+
+.wp-block-query .wp-block-post img {
+	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/05/mascara-entrada-blog.png);
+	/*mask-size: 256px;*/
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
