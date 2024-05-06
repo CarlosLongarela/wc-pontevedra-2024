@@ -172,5 +172,5 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	left: 0;
 	width: 100%;
 	height: 3px;
-	background-color: var(--wp--preset--color--accent-4);
+	background-color: #d4cef4;
 }
