@@ -187,3 +187,11 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	mask-position: center;
 }
 */
+
+.wp-block-navigation__responsive-container.has-modal-open .wp-block-navigation-submenu {
+	padding-top: 0 !important;
+}
+
+.wp-block-navigation__responsive-container.has-modal-open .wp-block-navigation__responsive-container-content {
+	flex-direction: column-reverse !important;
+}
