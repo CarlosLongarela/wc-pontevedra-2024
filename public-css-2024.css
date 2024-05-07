@@ -195,3 +195,11 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 .wp-block-navigation__responsive-container.has-modal-open .wp-block-navigation__responsive-container-content {
 	flex-direction: column-reverse !important;
 }
+
+@media screen and (max-width: 599px) {
+	header {
+		position: sticky;
+		top: 0;
+		z-index: 1000;
+	}
+}
