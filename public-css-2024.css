@@ -202,6 +202,12 @@ header {
 	z-index: 1000;
 }
 
+:where(.wp-site-blocks *:focus) {
+	outline-width: 1px !important;
+	outline-style: solid;
+	outline-color: #605e5c !important;
+}
+
 /* Favorites solution by by Juan Hernando */
 .wcb-favourite-session .wcb-session-favourite-icon a.fav-session-button,
 .wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:hover,
