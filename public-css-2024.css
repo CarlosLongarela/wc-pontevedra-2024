@@ -206,6 +206,7 @@ header {
 	outline-width: 1px !important;
 	outline-style: solid;
 	outline-color: #605e5c !important;
+	outline-offset: 4px;
 }
 
 /* Favorites solution by by Juan Hernando */
