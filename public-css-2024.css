@@ -57,7 +57,7 @@
 	/* formulario-registro */
 	.formulario_registro .wp-block-jetpack-contact-form-container,
 	.formulario_registro p {
-		max-width: 90% !important;
+		max-width: 100% !important;
 	}
 
 	.form-wc-ponte {
