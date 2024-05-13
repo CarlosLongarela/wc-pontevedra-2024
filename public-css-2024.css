@@ -192,7 +192,7 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 }
 
 .cl-home-news .wp-block-post img {
-	mask-size: 550px;
+	mask-size: max(370px, 100%);
 }
 
 .single-post .wp-block-post-featured-image .wp-post-image {
