@@ -53,6 +53,23 @@
 		width: 90% !important;
 		margin: auto !important;
 	}
+
+	/* formulario-registro */
+	.wp-container-core-group-is-layout-11 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+		max-width: 90% !important; 
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	
+	#contact-form-2031 {
+		width:100%;
+	}
+
+	.wp-container-core-group-is-layout-5 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+		max-width: 90% !important; 
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
 }
 
 /* En 780 hay otro punto de ruptura */
