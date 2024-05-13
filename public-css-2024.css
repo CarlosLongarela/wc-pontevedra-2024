@@ -196,7 +196,7 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 }
 
 .single-post .wp-block-post-featured-image .wp-post-image {
-	mask-size: 100%;
+	mask-size: min(950px, 100%);
 }
 
 .wp-block-navigation__responsive-container.has-modal-open .wp-block-navigation-submenu {
