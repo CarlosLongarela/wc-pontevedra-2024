@@ -55,21 +55,16 @@
 	}
 
 	/* formulario-registro */
-	.wp-container-core-group-is-layout-11 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
-		max-width: 90% !important; 
-		margin-left: auto !important;
-		margin-right: auto !important;
-	}
-	
-	#contact-form-2031 {
-		width:100%;
+	.formulario_registro .wp-block-jetpack-contact-form-container,
+	.formulario_registro p {
+		max-width: 90% !important;
 	}
 
-	.wp-container-core-group-is-layout-5 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
-		max-width: 90% !important; 
-		margin-left: auto !important;
-		margin-right: auto !important;
+	.form-wc-ponte {
+		width: 100%;
+		margin-inline: auto;
 	}
+
 }
 
 /* En 780 hay otro punto de ruptura */
