@@ -291,8 +291,12 @@ header {
 	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado-2.png);
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 850px) {
 	#tix-attendees .tix-attendee-list {
 		flex-wrap: wrap;
+	}
+
+	#tix-attendees .tix-attendee-list li {
+		width: auto;
 	}
 }
