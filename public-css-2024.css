@@ -253,12 +253,14 @@ header {
 
 #tix-attendees .tix-attendee-list {
 	display: flex;
+	justify-content: center;
 }
 
 #tix-attendees .tix-attendee-list li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	height: auto;
 }
 
 #tix-attendees .tix-attendee-list li .avatar {
@@ -280,11 +282,17 @@ header {
 
 .avatar {
 	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
-	mask-size: 190px;
+	mask-size: 210px;
 	mask-repeat: no-repeat;
 	mask-position: center;
 }
 
 #tix-attendees .tix-attendee-list li:nth-of-type(even) .avatar {
 	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado-2.png);
+}
+
+@media screen and (max-width: 599px) {
+	#tix-attendees .tix-attendee-list {
+		flex-wrap: wrap;
+	}
 }
