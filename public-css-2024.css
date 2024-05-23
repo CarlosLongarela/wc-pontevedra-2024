@@ -297,6 +297,6 @@ header {
 	}
 
 	#tix-attendees .tix-attendee-list li {
-		width: auto;
+		width: 100%;
 	}
 }
