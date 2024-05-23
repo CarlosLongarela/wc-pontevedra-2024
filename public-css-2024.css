@@ -246,27 +246,27 @@ header {
 }
 
 /* Attendees */
-.tix-attendees {
+#tix-attendees {
 	margin-top: 3em;
 }
 
-.tix-attendees .tix-attendee-list {
+#tix-attendees .tix-attendee-list {
 	display: flex;
 }
 
-.tix-attendees .tix-attendee-list li {
+#tix-attendees .tix-attendee-list li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.tix-attendees .tix-attendee-list li .avatar {
+#tix-attendees .tix-attendee-list li .avatar {
 	width: 190px;
 	height: 190px;
 	float: initial;
 }
 
-.tix-attendees .tix-attendee-list li .tix-attendee-name {
+#tix-attendees .tix-attendee-list li .tix-attendee-name {
 	text-align: center;
 	margin-inline: auto;
 	max-width: 190px;
