@@ -254,6 +254,7 @@ header {
 #tix-attendees .tix-attendee-list {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 #tix-attendees .tix-attendee-list li {
