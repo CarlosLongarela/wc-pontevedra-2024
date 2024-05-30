@@ -191,12 +191,14 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	padding-inline: 1em;
 }
 
-.cl-home-news .wp-block-post {
+.cl-home-news .wp-block-post,
+.cl-news-pages .wp-block-post {
 	margin-top: 1em;
 }
 
 /* Máscara de entrada en blog */
 .cl-home-news .wp-block-post img,
+.cl-news-pages .wp-block-post img,
 .single-post .wp-block-post-featured-image .wp-post-image {
 	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/05/mascara-entrada-blog.png);
 	mask-repeat: no-repeat;
@@ -205,6 +207,10 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 
 .cl-home-news .wp-block-post img {
 	mask-size: max(370px, 100%);
+}
+
+.cl-news-pages .wp-block-post img {
+	mask-size: max(250px, 100%);
 }
 
 .single-post .wp-block-post-featured-image .wp-post-image {
