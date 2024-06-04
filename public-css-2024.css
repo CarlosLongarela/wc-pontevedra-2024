@@ -217,6 +217,12 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	mask-size: min(950px, 100%);
 }
 
+@media screen and (max-width: 781px) {
+	.single-post .wp-block-post-featured-image {
+		max-height: 300px;
+	}
+}
+
 .wp-block-navigation__responsive-container.has-modal-open .wp-block-navigation-submenu {
 	padding-top: 0 !important;
 }
