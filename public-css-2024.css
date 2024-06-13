@@ -11,6 +11,8 @@
 --wp--preset--color--accent-3: #35ff69;
 --wp--preset--color--accent-4: #6a478d;
 --wp--preset--color--accent-5: #b5bdbc;
+
+Payload URL to update CSS https://pontevedra.wordcamp.org/2024/wp-admin/admin-ajax.php?action=wcrcss_webhook
 */
 
 .sombra-verde,
