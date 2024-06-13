@@ -277,15 +277,15 @@ header {
 }
 
 #tix-attendees .tix-attendee-list li .avatar {
-	width: 190px;
-	height: 190px;
+	width: 96px;
+	height: 96px;
 	float: initial;
 }
 
 #tix-attendees .tix-attendee-list li .tix-attendee-name {
 	text-align: center;
 	margin-inline: auto;
-	max-width: 210px;
+	max-width: 120px;
 	font-family: var(--wp--preset--font-family--love-ya-like-a-sister);
 	color: var(--wp--preset--color--accent-4);
 	font-size: 1.2em;
@@ -295,7 +295,7 @@ header {
 
 .avatar {
 	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
-	mask-size: 190px;
+	mask-size: 96px;
 	mask-repeat: no-repeat;
 	mask-position: center;
 }
