@@ -334,3 +334,13 @@ header {
 	font-size: 32px;
 	font-weight: 500;
 }
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session {
+	background-color: var(--wp--preset--color--contrast);
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title {
+	color: var(--wp--preset--color--accent-4);
+	font-size: 32px;
+	font-weight: 700;
+}
