@@ -346,6 +346,10 @@ header {
 	font-weight: 700;
 }
 
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled {
+	color: var(--wp--preset--color--contrast);
+}
+
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-speaker {
 	color: var(--wp--preset--color--accent-4);
 	font-size: 21px;
