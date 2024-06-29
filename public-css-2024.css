@@ -323,14 +323,14 @@ header {
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__column-header.is-column-time {
-	background-color: var(--wp--preset--color--accent-3);
+	background-color: var(--wp--preset--color--accent-3) !important;
 	font-size: 16px;
 	font-weight: 700;
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header.has-sessions {
-	color: var(--wp--preset--color--accent-2);
-	background-color: var(--wp--preset--color--accent-4);
+	color: var(--wp--preset--color--base-2);
+	background-color: var(--wp--preset--color--accent-4) !important;
 	font-size: 32px;
 	font-weight: 500;
 }
