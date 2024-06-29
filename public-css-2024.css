@@ -351,7 +351,14 @@ header {
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-category dd {
+	display: inline-block;
+	padding-inline: 1em;
+	margin-right: 2em;
 	background-color: var(--wp--preset--color--accent-3);
+	color: var(--wp--preset--color--base-4);
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session-speaker {
