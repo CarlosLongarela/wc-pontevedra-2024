@@ -322,7 +322,7 @@ header {
 	color: var(--wp--preset--color--accent-4)
 }
 
-.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__column-header.is-column-time {
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__column-header {
 	background-color: var(--wp--preset--color--accent-3) !important;
 	font-size: 16px;
 	font-weight: 700;
