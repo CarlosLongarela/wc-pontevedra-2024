@@ -328,6 +328,10 @@ header {
 	font-weight: 700;
 }
 
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header.is-empty {
+	display: none;
+}
+
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header.has-sessions {
 	color: var(--wp--preset--color--base-2);
 	background-color: var(--wp--preset--color--accent-4) !important;
