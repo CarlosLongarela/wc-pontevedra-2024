@@ -329,7 +329,7 @@ header {
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header.is-empty {
-	display: none;
+	display: none !important;
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header.has-sessions {
@@ -348,6 +348,11 @@ header {
 	color: var(--wp--preset--color--accent-4);
 	font-size: 32px;
 	font-weight: 700;
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session,
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header {
+	margin: 2px !important;
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled {
