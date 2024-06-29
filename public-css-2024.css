@@ -3,13 +3,13 @@
 /*
 --wp--preset--color--base: #f9f9f9;
 --wp--preset--color--base-2: #ffffff;
---wp--preset--color--contrast: #333333;
+--wp--preset--color--contrast: #333333; // Gris WC Ponte 2024
 --wp--preset--color--contrast-2: #333333;
 --wp--preset--color--contrast-3: #A4A4A4;
 --wp--preset--color--accent: #cfcabe;
---wp--preset--color--accent-2: #d4cdf4;
---wp--preset--color--accent-3: #35ff69;
---wp--preset--color--accent-4: #6a478d;
+--wp--preset--color--accent-2: #d4cdf4; // Lila clarito WC Ponte 2024
+--wp--preset--color--accent-3: #35ff69; // Verde WC Ponte 2024
+--wp--preset--color--accent-4: #6a478d; // Lila WC Ponte 2024
 --wp--preset--color--accent-5: #b5bdbc;
 
 Payload URL to update CSS https://pontevedra.wordcamp.org/2024/wp-admin/admin-ajax.php?action=wcrcss_webhook
@@ -314,4 +314,23 @@ header {
 	#tix-attendees .tix-attendee-list li {
 		width: 100%;
 	}
+}
+
+/* Schedule */
+.wordcamp-schedule .wordcamp-schedule__date {
+	font-size: 48px;
+	color: var(--wp--preset--color--accent-4)
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__column-header.is-column-time {
+	background-color: var(--wp--preset--color--accent-3);
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header.has-sessions {
+	color: var(--wp--preset--color--accent-2);
+	background-color: var(--wp--preset--color--accent-4);
+	font-size: 32px;
+	font-weight: 500;
 }
