@@ -364,6 +364,10 @@ header {
 	color: var(--wp--preset--color--accent-4);
 }
 
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session.wcb-favourite-session .wordcamp-schedule__session-title .dashicons-star-filled {
+	color: red;
+}
+
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-category dd {
 	display: inline-block;
 	padding-inline: 1em;
