@@ -366,8 +366,8 @@ header {
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-category dd+dd {
-	background-color: var(--wp--preset--color--accent-4);
-	color: #000;
+	background-color: var(--wp--preset--color--accent-2);
+	color: var(--wp--preset--color--accent-4);
 	font-weight: 500;
 }
 
