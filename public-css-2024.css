@@ -251,7 +251,7 @@ header {
 .wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:hover,
 .wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:focus:hover,
 .wordcamp-schedule .wcb-favourite-session div.wcb-session-favourite-icon a.fav-session-button:focus {
-	color: #ffb900;
+	color: var(--wp--preset--color--accent-4) !important;
 }
 
 .wordcamp-schedule .wcb-favourite-session div.wcb-session-favourite-icon a.fav-session-button:hover,
