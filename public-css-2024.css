@@ -385,3 +385,7 @@ header {
 	font-size: 21px;
 	font-weight: 500;
 }
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session.wcb-favourite-session {
+	background-color: red;
+}
