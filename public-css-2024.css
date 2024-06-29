@@ -347,10 +347,14 @@ header {
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled {
-	color: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--accent-2);
 }
 
-.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-speaker {
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-category dd {
+	background-color: var(--wp--preset--color--accent-3);
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session-speaker {
 	color: var(--wp--preset--color--accent-4);
 	font-size: 21px;
 	font-weight: 500;
