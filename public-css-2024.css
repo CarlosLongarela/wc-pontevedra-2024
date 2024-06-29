@@ -359,7 +359,7 @@ header {
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session,
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header {
 	/*border: 2px solid #fff !important;*/
-	margin: 2px;
+	margin: 2px !important;
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled {
