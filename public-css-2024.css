@@ -360,12 +360,9 @@ header {
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled:hover,
-.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled:focus {
-	color: var(--wp--preset--color--accent-4);
-}
-
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled:focus,
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session.wcb-favourite-session .wordcamp-schedule__session-title .dashicons-star-filled {
-	color: red;
+	color: var(--wp--preset--color--accent-4);
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-category dd {
