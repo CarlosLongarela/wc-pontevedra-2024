@@ -322,6 +322,10 @@ header {
 	color: var(--wp--preset--color--accent-4)
 }
 
+.wordcamp-schedule .wordcamp-schedule__day {
+	background-color: #e6e6e6;
+}
+
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__column-header {
 	background-color: var(--wp--preset--color--accent-3) !important;
 	font-size: 16px;
@@ -352,7 +356,7 @@ header {
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session,
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header {
-	margin: 2px !important;
+	border: 2px solid #fff !important;
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled {
