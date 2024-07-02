@@ -393,8 +393,8 @@ header {
 	font-weight: 500;
 }
 
-.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session-speaker,
-.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session-speaker a {
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session-speakers,
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session-speakers a {
 	color: var(--wp--preset--color--accent-4);
 	font-size: 21px;
 	font-weight: 500;
