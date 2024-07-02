@@ -376,6 +376,7 @@ header {
 	display: inline-block;
 	padding-inline: 1em;
 	margin-right: 1em;
+	margin-top: 1em;
 	background-color: var(--wp--preset--color--accent-3);
 	color: var(--wp--preset--color--base-4);
 	text-transform: uppercase;
