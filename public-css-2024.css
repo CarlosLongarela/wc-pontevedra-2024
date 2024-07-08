@@ -504,3 +504,10 @@ header {
 	width: 150px !important;
 	height: 150px !important;
 }
+
+.single-wcb_speaker .wp-block-wordcamp-avatar img {
+	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
+	mask-size: 150px;
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
