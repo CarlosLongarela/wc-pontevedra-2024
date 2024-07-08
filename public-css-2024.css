@@ -498,3 +498,9 @@ header {
 .single-wcb_speaker .wordcamp-sessions__details .wordcamp-sessions__categories span:nth-of-type(2) {
 	background-color: var(--wp--preset--color--accent-2);
 }
+
+.single-wcb_speaker .wp-block-wordcamp-avatar,
+.single-wcb_speaker .wp-block-wordcamp-avatar img {
+	width: 150px !important;
+	height: 150px !important;
+}
