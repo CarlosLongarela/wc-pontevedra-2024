@@ -418,11 +418,14 @@ header {
 .single-wcb_session .taxonomy-wcb_session_category > a:first-child {
 	background-color: var(--wp--preset--color--accent-3);
 	color: var(--wp--preset--color--accent-4);
+	text-transform: uppercase;
+	padding-right: 1em;
 }
 
 .single-wcb_session .taxonomy-wcb_session_category a:nth-of-type(2) {
 	background-color: var(--wp--preset--color--accent-2);
 	color: var(--wp--preset--color--accent-4);
+	text-transform: uppercase;
 }
 
 .single-wcb_session .taxonomy-wcb_session_category .wp-block-post-terms__separator {
