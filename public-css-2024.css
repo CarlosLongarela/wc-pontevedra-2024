@@ -448,3 +448,10 @@ header {
 .single-wcb_session .sesion-ponente-contenido .wordcamp-speakers + p {
 	display: none;
 }
+
+.single-wcb_session .sesion-foto-ponente img {
+	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
+	mask-size: 300px;
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
