@@ -38,6 +38,11 @@ Payload URL to update CSS https://pontevedra.wordcamp.org/2024/wp-admin/admin-aj
 	margin-top: 1em;
 }
 
+.cl-ondas-gris-arriba,
+.cl-ondas-gris-arriba img {
+	max-width: 100%;
+}
+
 /* El menu cambia a mobile en 599px, en 600px aún es desktop */
 @media screen and (max-width: 599px) {
 	/*
@@ -437,4 +442,7 @@ header {
 .single-wcb_session .wordcamp-speakers .wordcamp-speakers__title,
 .single-wcb_session .wordcamp-speakers .wordcamp-speakers__title a {
 	color: var(--wp--preset--color--accent-4);
+	text-decoration: none;
 }
+
+/*.single-wcb_session */
