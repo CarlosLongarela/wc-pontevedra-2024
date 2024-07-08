@@ -462,6 +462,12 @@ header {
 	padding-top: 20px;
 }
 
+.single-wcb_speaker .wordcamp-sessions__title a {
+	color: var(--wp--preset--color--accent-4);
+	font-weight: 700;
+	text-decoration: none;
+}
+
 .single-wcb_speaker .wordcamp-sessions__details .wordcamp-sessions__time-location {
 	background-color: var(--wp--preset--color--accent-4);
 	color: var(--wp--preset--color--base-2);
