@@ -403,3 +403,33 @@ header {
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session.wcb-favourite-session {
 	background-color: #e0f8ff;
 }
+
+/*** Sessions ***/
+.single-wcb_session .taxonomy-wcb_session_category a {
+	border-radius: 0;
+	padding: 0 1em;
+	margin-right: 1em;
+}
+
+.single-wcb_session .wp-block-post-excerpt__excerpt {
+	text-align: left;
+}
+
+.single-wcb_session .taxonomy-wcb_session_category > a:first-child {
+	background-color: var(--wp--preset--color--accent-3);
+	color: var(--wp--preset--color--accent-4);
+}
+
+.single-wcb_session .taxonomy-wcb_session_category a:nth-of-type(2) {
+	background-color: var(--wp--preset--color--accent-2);
+	color: var(--wp--preset--color--accent-4);
+}
+
+.single-wcb_session .taxonomy-wcb_session_category .wp-block-post-terms__separator {
+	display: none;
+}
+
+.single-wcb_session .wordcamp-speakers .wordcamp-speakers__title,
+.single-wcb_session .wordcamp-speakers .wordcamp-speakers__title a {
+	color: var(--wp--preset--color--accent-4);
+}
