@@ -518,7 +518,8 @@ header {
 	mask-position: center;
 }
 
-.single-wcb_speaker .wp-block-image.aligncenter.size-full img {
+.single-wcb_speaker .wp-block-image.aligncenter.size-full img,
+.single-wcb_session .wp-block-image.size-full img {
 	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
 	mask-size: 300px;
 	mask-repeat: no-repeat;
