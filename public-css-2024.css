@@ -525,3 +525,7 @@ header {
 	mask-repeat: no-repeat;
 	mask-position: center;
 }
+
+.single-wcb_session .wp-block-post-content p:last-of-type {
+	display: none;
+}
