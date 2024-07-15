@@ -526,6 +526,10 @@ header {
 	mask-position: center;
 }
 
+.wp-block-image.sombra-patros img {
+	mask-image: none !important;
+}
+
 .single-wcb_session .wp-block-post-content p:last-of-type {
 	display: none;
 }
