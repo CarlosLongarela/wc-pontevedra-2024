@@ -533,3 +533,14 @@ header {
 .single-wcb_session .wp-block-post-content p:last-of-type {
 	display: none;
 }
+
+.postid-4746 h2 {
+	position: relative;
+}
+
+.postid-4746 h2::before {
+	content: "¿";
+	background-color: var(--wp--preset--color--accent-4);
+	position: absolute;
+	transform: scale(-1, 1);
+}
