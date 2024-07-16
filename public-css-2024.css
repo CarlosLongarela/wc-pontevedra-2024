@@ -549,8 +549,8 @@ header {
 
 /* Schedule */
 .wp-block-wordcamp-schedule .wordcamp-schedule .is-column-time {
-	color:transparent;
-	font-size: 1px !important;
+	color: transparent;
+	font-size: 0 !important;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule .is-column-time:after {
