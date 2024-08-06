@@ -148,6 +148,10 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	background: url(https://pontevedra.wordcamp.org/2024/files/2024/04/wp-icon.png) no-repeat center center;
 }
 
+.wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-linkedin a::before {
+	background: url(https://pontevedra.wordcamp.org/2024/files/2024/08/icono-linkedin.png) no-repeat center center;
+}
+
 .fondo-div-galicia {
 	background-color: var(--wp--preset--color--accent-4);
 }
