@@ -562,3 +562,28 @@ header {
 	color: var(--wp--preset--color--contrast);
 	font-size: 16px
 }
+
+
+/* Schedule Spanish, change texts */
+.page-id-3218 .wordcamp-schedule__date {
+	color: transparent;
+	font-size: 0 !important;
+}
+
+.page-id-3218 .wordcamp-schedule__date::after {
+	color: var(--wp--preset--color--accent-4);
+	font-size: 48px
+}
+
+
+.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2024-09-20"] .wordcamp-schedule__date::after {
+	content: '20 de septiembre, 2024';
+}
+
+.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2024-09-21"] .wordcamp-schedule__date::after {
+	content: '21 de septiembre, 2024';
+}
+
+.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2024-09-22"] .wordcamp-schedule__date::after {
+	content: '22 de septiembre, 2024';
+}
